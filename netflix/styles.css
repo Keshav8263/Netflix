@@ -1,0 +1,140 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.netflix{
+    height: 100%;
+    width: 100%;
+    /* background-color: chartreuse; */
+}
+.nav{
+    height: 90vh;
+    width: 100%;
+    /* background-color: chocolate; */
+    background-image: url(background.jpg);
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)),
+url(background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.upper-nav{
+    height: 15vh;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+}
+.left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left img{
+    height: 60%;
+    width: 25%;
+    margin-left: 10vw;
+}
+.laguage{
+    padding: 0.6vw 1vw;
+    margin-right: 1vw;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+}
+.signup{
+    padding: 0.6vw 1vw;
+    margin-right: 1vw;
+    color: white;
+    font-size: 15px;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+}
+.container{
+    height: 40vh;
+    width: 100%;
+    /* background-color: lightblue; */
+    margin-top: 20vh;
+    text-align: center;
+    padding-top: 3vw;
+}
+.container h1{
+    font-size: 3vw;
+    font-weight: 600;
+    color: white;
+}
+.container h3{
+    margin-top: 1vw;
+    color: white;
+}
+.container p{
+    margin-top: 1vw;
+    color: white;
+}
+.input-div{
+    margin-top: 1.5vw;
+}
+.input-div button{
+    padding: 1vw 2vw;
+    margin-right: 1vw;
+    color: white;
+    font-size: 15px;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+}
+.input-div input{
+    padding: 1vw 2vw;
+    margin-right: 1vw;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    border: 1px solid white;
+    /* background-color: red; */
+    border-radius: 5px;
+    /* border: none; */
+    background-filter: blur(1px);
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5));
+
+}
+.input-div input::placeholder{
+    color: rgb(79, 79, 79);
+    font-size: 15px;
+}
+.Tv-show{
+    height: 60vh;
+    width: 100%;
+    background-color: aqua;
+}
+.text-tv-show{
+    height: 100%;
+    width: 50%;
+    background-color: chartreuse;
+}
+.text-tv-show h1{
+    padding-top: 10vw;
+}
+.text-tv-show h1,p{
+    margin-left: 25vw;
+    margin: top 5vh;;
+}
+
+
+
