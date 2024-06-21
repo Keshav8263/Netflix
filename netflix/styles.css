@@ -118,23 +118,176 @@ url(background.jpg);
     color: rgb(79, 79, 79);
     font-size: 15px;
 }
-.Tv-show{
-    height: 60vh;
+.stye-line{
+    height: 7px;
     width: 100%;
-    background-color: aqua;
+    background-color: rgb(53, 53, 53);
+}
+.Tv-show{
+    height: 75vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
 }
 .text-tv-show{
     height: 100%;
     width: 50%;
-    background-color: chartreuse;
+    background-color: black;
 }
 .text-tv-show h1{
-    padding-top: 10vw;
+    padding-top: 13vw;
+    font-size: 50px;
+    font-weight: 900;
+}
+.text-tv-show p{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 10vw;
 }
 .text-tv-show h1,p{
-    margin-left: 25vw;
-    margin: top 5vh;;
+    margin-left: 10vw;
+    color: white;
 }
-
-
-
+.video-tv-show{
+    height: 100%;
+    width: 50%;
+    /* background-color: c; */
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.video-box{
+    height: 50%;
+    width: 52%;
+    /* background-color: blueviolet; */
+    margin-left: 83px;
+}
+.video-box video{
+    height: 100%;
+    width: 100%;
+}
+.video-tv-show img{
+    height: 63%;
+    width: 70%;
+    position: absolute;
+    left: 15px;
+}
+.download-show{
+    height: 70vh;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+}
+.img-download-show{
+    height: 100%;
+    width: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.text-download-show{
+    height: 100%;
+    width: 50%;
+    background-color: black;
+}
+.img-download-show img{
+    height: 90%;
+    width: 80%;
+}
+.download-box{
+    height: 15vh;
+    width: 22vw;
+    background-color: black;
+    position: absolute;
+    top: 22vw;
+    right: 9vw;
+    border-radius: 15px;
+    border: 2px solid white;
+    padding: 10px 15px;
+    display: flex;
+}
+.poster{
+    height: 100%;
+    width: 20%;
+    background-image: url(movi\ posters.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.downloding{
+    height: 100%;
+    width: 60%;
+    /* background-color: chartreuse; */
+    padding-top: 25px;
+}
+.downloding h4,p{
+    margin-left: 15px;
+    color: white;
+}
+.downloding p{
+    color: rgb(77, 77, 254);
+    margin-top: 5px;
+}
+.downloding-icon{
+    height: 100%;
+    width: 20%;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+}
+.text-download-show h1{
+    font-size: 50px;
+    color: white;
+    margin-top: 7vw;
+    font-weight: 900;
+}
+.text-download-show p{
+    font-size: 25px;
+    color: white;
+    margin: 0;
+    margin-top: 10px;
+}
+.movies{
+    height: 70vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.movies-text{
+    height: 100%;
+    width: 50%;
+}
+.movies-ad{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    display: flex;
+}
+.movies-ad video{
+    margin-top: 7vw;
+    margin-left: 3vw;
+    /* box-shadow: white 0px 5px 15px; */
+}
+.movies-ad img{
+    height: 80%;
+    width: 80%;
+    position: absolute;
+    top: 5vw;
+    
+}
+.movies-text h1{
+    padding-top: 13vw;
+    font-size: 50px;
+    font-weight: 900;
+    margin-left: 12vw;
+    color: white;
+}
+.movies-text p{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 12vw;
+}
