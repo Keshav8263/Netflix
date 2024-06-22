@@ -19,7 +19,7 @@ tl.from(".container h1,.container h3,.container p",{
     stagger:0.1
 })
 tl.from(".input-div",{
-    x:-30,
+    y:-30,
     opacity:0,
     duration:0.3,
     stagger:0.1
