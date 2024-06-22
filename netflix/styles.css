@@ -57,6 +57,12 @@ url(background.jpg);
     border: 1px solid white;
     color: white;
     background-color: transparent;
+    display: flex;
+   
+}
+.laguage p{
+    margin-right: 10px;
+    margin-right: 10px;
 }
 .signup{
     padding: 0.6vw 1vw;
@@ -290,4 +296,106 @@ url(background.jpg);
     font-size: 25px;
     margin-top: 15px;
     margin-left: 12vw;
+}
+.carton{
+    height: 70vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.carton-img{
+    height: 100%;
+    width: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.carton-img img{
+    height: 80%;
+    width: 80%;
+}
+.carton-text{
+    height: 100%;
+    width: 50%;
+    /* background-color: blueviolet; */
+}
+.carton-text h1{
+    padding-top: 7vw;
+    font-size: 50px;
+    font-weight: 900;
+    /* margin-left: 12vw; */
+    color: white;
+}
+.carton-text p{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 0;
+}
+.Question{
+    height: 125vh;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+.Question h1{
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    margin-top: 5vw;
+}
+.Question-box{
+    height: 6vw;
+    width: 70vw;
+    background-color: rgb(58, 57, 57);
+    margin-top: 15px;
+    margin-left: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+}
+.Question-box p{
+    font-size: 25px !important;
+    margin: 0 !important;
+}
+.Question-box i{
+    font-size: 35px;
+    font-weight: 500;
+    color: white;
+}
+.Question div p{
+    font-size: 20px;
+    margin-top: 3vw;
+}
+footer{
+    height: 30vw;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 0 5vw; */
+    padding-left: 10vw;
+}
+.footer-box1{
+    height: 80%;
+    width: 35%;
+    /* background-color: chartreuse; */
+    text-align: start;
+   padding: 20px 40px;
+}
+.footer-box1 p{
+    margin-top: 25px;
+    margin-left: 0;
+}
+.footer-box1 div{
+    margin-top: 25px;
+}
+.footer-box1 div .kk p{
+    margin-top: 0;
+    margin-left: 10px;
+}
+.footer-box1 a{
+    color: white;
 }
